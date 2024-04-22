@@ -44,11 +44,6 @@ if email:
     else:
         st.error("Email non trouvé")
 
-
-
-
-
-
 # Calculer les statistiques des notes pour le pie chart
 stats_notes = df["Catégorie de notes"].value_counts()
 
